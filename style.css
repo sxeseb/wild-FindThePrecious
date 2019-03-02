@@ -1,5 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h3 {
     margin: 20px 0;
+}
+
+.nav-main,
+.card-header,
+footer {
+    background-color: #FF6600;
+}
+
+.reward-container,
+.about-container,
+.contact-container {
+    background-color: #101010;
+}
+
+.fellows-container,
+.best-container,
+.army-container {
+    background-color: #F0EDE6;
+}
+
+
+section, hr {
+    margin: 0;
+}
+
+section {
+    padding: 25px 0px;
 }
 
 .wanted {
@@ -72,14 +104,16 @@ h3 {
     left: 32%;
 }
 
+/*
 .carousel-item,
 .carousel-control-prev,
 .carousel-control-next {
     height: 50vh;
 }
+*/
 
 .carousel-caption {
-    bottom: 40%;
+    bottom: 35%;
 }
 
 .btn-fellow {
