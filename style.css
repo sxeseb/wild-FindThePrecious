@@ -1,10 +1,38 @@
+@font-face {
+    font-family: "Aniron";
+    src: url("./fonts/anirm___.ttf"); 
+}
+
+@font-face {
+    font-family: "Party";
+    src: url("./fonts/partybusiness.ttf");
+}
+
+@font-face {
+    font-family: "Glyphs";
+    src: url("./fonts/tngani.ttf");
+}
+
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Party";
+    font-size: 1.6em;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family : "Aniron";
 }
 
 h3 {
     margin: 20px 0;
+}
+
+.glyph {
+    font-family: "Glyphs";
+    color: #FF6600;
 }
 
 .nav-main,
@@ -26,7 +54,7 @@ footer {
 }
 
 
-section, hr {
+section, hr, footer, header {
     margin: 0;
 }
 
@@ -121,6 +149,6 @@ section {
     margin-bottom: 5px;
 }
 
-span {
+.lower {
     font-size: 0.7em;
 }
