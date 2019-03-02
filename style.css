@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Aniron";
     src: url("./fonts/anirm___.ttf"); 
+    src: url("./fonts/anicm___.ttf")
 }
 
 @font-face {
@@ -18,8 +19,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Party";
-    font-size: 1.6em;
-    
+    font-size: 1.6em;    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +45,7 @@ footer {
 .about-container,
 .contact-container {
     background-color: #101010;
+    color: #FFF;
 }
 
 .fellows-container,
@@ -60,6 +61,14 @@ section, hr, footer, header {
 
 section {
     padding: 25px 0px;
+    letter-spacing: 1.1px;
+}
+
+.nav-main {
+    text-transform: uppercase;
+    font-family: "Aniron";
+    font-size: 0.7em;
+
 }
 
 .wanted {
