@@ -38,6 +38,7 @@ h3 {
     font-family: "Glyphs";
     color: #FF6600;
     font-weight: 600;
+    align-self: top;
 }
 
 .nav-main,
@@ -82,16 +83,19 @@ section {
 }
 
 .nav-main a {
-    color: #fff;
+    color: #fff !important;
     margin-bottom: 0;
     padding-bottom: 5px;
 }
 
+/*
 .nav-main a:after {
     content: " | ";
     padding-top: 5px;
     padding-left: 5px;
 }
+*/
+
 
 .nav-main .active {
     border-bottom: 4px solid #fff !important;
@@ -176,21 +180,22 @@ section {
 .banner {
     position: absolute;
     top: 16px;
-    left: 28px;
-    padding: 8px;
+    left: 5%;
+    padding: 0;
     background-color: #fff;
     opacity: 0.8;
-    width: 80%;
+    width: 90%;
     z-index: 1;
     text-align: center;
     border-radius: 10px;
     transition: all ease-in-out .30s;
+    box-shadow: 1px 1px 5px 5px #fff;
 }
 
 .banner p {
     margin: auto;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .reward {
@@ -208,14 +213,6 @@ section {
     left: 38%;
 }
 
-/*
-.carousel-item,
-.carousel-control-prev,
-.carousel-control-next {
-    height: 50vh;
-}
-*/
-
 .carousel-caption {
     bottom: 35%;
 }
@@ -227,4 +224,11 @@ section {
 
 .lower {
     font-size: 0.7em;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #FF6600;
+    border-radius: 0;
+    font-size: 1.5em;
 }
