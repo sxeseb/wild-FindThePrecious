@@ -1,3 +1,5 @@
+/* General */
+
 @font-face {
     font-family: "Aniron";
     src: url("./fonts/anirm___.ttf"); 
@@ -19,7 +21,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Party";
-    font-size: 1.6em;    
+    font-size: 1.6em;
+    overflow: hidden auto;    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,12 +30,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
-    margin: 20px 0;
+    margin: 20px;
+    font-size: 0.9em;
 }
 
 .glyph {
     font-family: "Glyphs";
     color: #FF6600;
+    font-weight: 600;
 }
 
 .nav-main,
@@ -59,17 +64,53 @@ section, hr, footer, header {
     margin: 0;
 }
 
+p {
+    padding: 0 30px;
+}
+
 section {
-    padding: 25px 0px;
+    padding: 25px;
     letter-spacing: 1.1px;
 }
 
+/* navbar */
 .nav-main {
     text-transform: uppercase;
     font-family: "Aniron";
-    font-size: 0.7em;
-
+    font-size: 0.6em;
+    color: #fff;
 }
+
+.nav-main active {
+    border-bottom: 1px solid #fff !important;
+}
+
+/* fellows */
+.fellows-nav .glyph {
+    font-weight: 400;
+    color: #F0EDE6;
+}
+
+.fellows-nav a{
+    color: #5A5954;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.fellows-nav a:hover {
+    color: #000;
+}
+
+.fellows-nav .active {
+    color: #FF6600;
+    border-bottom: solid 4px #FF6600;
+    margin-bottom: 11px;
+}
+
+.fellows-nav .active .glyph {
+    color: #FF6600;
+}
+
 
 .wanted {
     padding: 25px;
