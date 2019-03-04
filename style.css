@@ -34,6 +34,13 @@ h3 {
     font-size: 0.9em;
 }
 
+h5 {
+    font-size: 1.5em;
+    color: #FF6600;
+    font-family: "Party";
+    font-weight: 500;
+}
+
 .glyph {
     font-family: "Glyphs";
     color: #FF6600;
@@ -70,7 +77,7 @@ p {
 }
 
 section {
-    padding: 25px;
+    padding: 40px 25px;
     letter-spacing: 1.1px;
 }
 
@@ -87,15 +94,6 @@ section {
     margin-bottom: 0;
     padding-bottom: 5px;
 }
-
-/*
-.nav-main a:after {
-    content: " | ";
-    padding-top: 5px;
-    padding-left: 5px;
-}
-*/
-
 
 .nav-main .active {
     border-bottom: 4px solid #fff !important;
@@ -132,7 +130,7 @@ section {
 
 .fellows-container .card {
     background-color: #101010;
-    padding-top: 5px;
+    padding: 5px;
     border-radius: none;
 }
 
@@ -142,23 +140,16 @@ section {
     font-size: 1.2em;
 }
 
-.wanted {
-    padding: 0;
-}
-
 .wanted-container {
     position: relative;
     width: 100%;
-    max-width: 326px;
-    height: 373px;
-    margin: auto;
+    height: auto;
 }
 
 .wanted-container img {
-    position: absolute;
-    top: 0;
-    width: 326px;
-    height: 373px;
+    position: relative;
+    width: 100%;
+    height: auto;
     z-index: 1;
     opacity: 0.6;
     transition: all ease-in-out .30s;
@@ -231,4 +222,21 @@ section {
     color: #FF6600;
     border-radius: 0;
     font-size: 1.5em;
+}
+
+/* hunters */
+
+.best-container img {
+    width: 139px;
+    height: 131px;    
+}
+
+.best-container {
+    padding: 0;
+}
+
+/* About */
+
+.about-container img {
+    
 }
