@@ -105,6 +105,13 @@ section {
     border-bottom: 4px solid #fff !important;
 }
 
+.carousel-caption h2 {
+    font-size: 2em;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+}
 /* fellows */
 .fellows-nav .glyph {
     font-weight: 400;
