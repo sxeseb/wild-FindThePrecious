@@ -17,29 +17,34 @@
 
     <header class="">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav-main">
+        <nav class="navbar navbar-expand-lg navbar-dark ticky-top nav-main">
             <a class="navbar-brand col-xs-4" href="#"><img src="./img/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end nav-white" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Fellows <span class="sr-only">(current)</span></a>
                     </li>
+                    <div class="white-separator"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="#">The Ring</a>
                     </li>
+                    <div class="white-separator"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Get my reward</a>
                     </li>
+                    <div class="white-separator"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Best hunters</a>
                     </li>
+                    <div class="white-separator"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Join the army</a>
                     </li>
+                    <div class="white-separator"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>
                     </li>
@@ -116,7 +121,7 @@
                 </nav>
                 <div class="card-deck">
                     <div class="card">
-                        <div class="wanted-container">
+                        <div class="wanted-container alive">
                             <h3>Gandalf</h3>
                             <img src="./img/rd_gandalf.png" class="card-img-top" alt="Gandalf">
                             <div class="banner">
@@ -128,7 +133,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="wanted-container">
+                        <div class="wanted-container alive">
                             <h3>Aragorn</h3>
                             <img src="./img/aragorn.png" class="card-img-top" alt="Gandalf">
                             <div class="banner">
@@ -141,10 +146,10 @@
                     </div>
                     <div class="card">
                         <div class="wanted-container">
-                            <h3>Gimly</h3>
+                            <h3 class="dead-text">Gimly</h3>
                             <img src="./img/gimli.png" class="card-img-top" alt="Gandalf">
-                            <div class="banner">
-                                <p>reward <span class="reward">1000</span> golden coins</p>
+                            <div class="banner dead">
+                                <p><span class="reward">dead</span></p>
                             </div>
                         </div>
                         <div class="card-body">
@@ -224,55 +229,59 @@
         <section class="about-container">
             <div class="container">
                 <h3><span class="glyph">ij</span> About the ring <span class="glyph">ij</span></h3>
-                <div class="card mb-4 col-10 offset-1">
-                    <div class="card-header">
-                        <h4>Ring capabilities</h4>
+
+                <div class=" col-12 col-md-10 offset-md-1 d-flex flex-column justify-content-center">
+                    <div class="card my-4 pb-1">
+                        <div class="card-header">
+                            <h4>Ring capabilities</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>What can our master Sauron do with the ring ?</p>
+                            <div class="table-responsive-sm">
+                                <table class="table border-0">
+                                    <thead class="w-100 border-bottom border-dark">
+                                        <tr class="">
+                                            <th class="col-4" scope="col">Feature </th>
+                                            <th class="col-8" scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="mw-100">
+                                        <tr class="">
+                                            <td>Main</td>
+                                            <td>One ring to rules them all</td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>Invisibility</td>
+                                            <td>You can't see me</td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>Power</td>
+                                            <td>Destroy the world</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p>What can our master Sauron do with the ring ?</p>
-                        <table class="table text-center table-bordered">
-                            <thead>
-                                <tr>
-                                    <th class="col-6" scope="col">Feature </th>
-                                    <th class="col-6" scope="col">Description</th>
-                                </tr>
-                            </thead>
-                            <tbody class="border border-light">
-                                <tr>
-                                    <td>Main</td>
-                                    <td>One ring to rules them all</td>
-                                </tr>
-                                <tr>
-                                    <td>Invisibility</td>
-                                    <td>You can't see me</td>
-                                </tr>
-                                <tr>
-                                    <td>Power</td>
-                                    <td>Destroy the world</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Ring capabilities</h4>
-                    </div>
-                    <div class="card-body">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-7">
-                                    <p><span>My preciooooooussssss ! Hrk Hrk, we want our preeciooooouuusssss !</span></p>
-                                    <p>Gollum</p>
-                                </div>
-                                <div class="col-md-2 offset-5 offset-md-0">
-                                    <img src="./img/gollum.png" class="" alt="...">
+                    <div class="card my-4 pb-1">
+                        <div class="card-header">
+                            <h4>Ring capabilities</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-7">
+                                        <p><span>My preciooooooussssss ! Hrk Hrk, we want our preeciooooouuusssss !</span></p>
+                                        <p>Gollum</p>
+                                    </div>
+                                    <div class="col-md-2 offset-5 offset-md-0">
+                                        <img src="./img/gollum.png" class="rounded-circle" alt="...">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <hr>

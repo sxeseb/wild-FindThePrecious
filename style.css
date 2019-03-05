@@ -22,7 +22,7 @@ body {
     padding: 0;
     font-family: "Party";
     font-size: 1.6em;
-    overflow: hidden auto;    
+    overflow: hidden auto;   
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,9 +48,18 @@ h5 {
     align-self: top;
 }
 
+.white-separator {
+    margin: auto 6px;
+
+    
+    height: 26px;
+    width: 3px;
+    background-color: #FFF;
+}
+
 .nav-main,
 .card-header,
-footer {
+footer, .card {
     background-color: #FF6600;
 }
 
@@ -63,7 +72,7 @@ footer {
 
 .fellows-container,
 .best-container,
-.army-container {
+.army-container, .about-container .card-body {
     background-color: #F0EDE6;
 }
 
@@ -90,7 +99,6 @@ section {
 }
 
 .nav-main a {
-    color: #fff !important;
     margin-bottom: 0;
     padding-bottom: 5px;
 }
@@ -183,6 +191,21 @@ section {
     box-shadow: 1px 1px 5px 5px #fff;
 }
 
+.dead {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    z-index: 51;
+}
+
+.dead-text {
+    text-decoration: line-through;
+    text-decoration-color: #FF6600;
+    font-size: 1.5em;    
+}
+
 .banner p {
     margin: auto;
     padding: 0;
@@ -237,6 +260,18 @@ section {
 
 /* About */
 
-.about-container img {
-    
+.about-container .card-body {
+    color: #000;
+}
+
+table {
+    font-size: 1.2em;
+}
+
+tbody {
+    color: #5A5954;
+}
+
+td {
+    padding-left : 30px !important;
 }
