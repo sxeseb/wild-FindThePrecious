@@ -14,326 +14,373 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="#">FindThePrecious.com</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Fellows <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">The Ring</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Get my reward</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Best hunters</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Join the army</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Caroussel -->
-    <div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators d-none">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active align-items-center">
-                    <img src="https://lotr-sounds.ambient-mixer.com/images_template/0/3/e/03e7d3054aa8953018616a22879501cd_full.jpg"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block align-self-center">
-                        <h2>Dangerous fellowship try to destroy the ring</h2>
-                        <p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://lotr-sounds.ambient-mixer.com/images_template/4/b/3/4b37bcdf212da08de12dd70b422dbcfa_full.jpg"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block align-self-center">
-                        <h2>Help our master !</h2>
-                        <p>Epics rewards and lot of food to get...</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://lotr-sounds.ambient-mixer.com/images_template/6/e/9/6e96305ae36b0b79659b7020be42e747_full.jpg"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block align-self-center">
-                        <h2>Bagarre !</h2>
-                        <p>Lot. Of. Fighting. and pretty epic too !</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-
-    <div class="container">
-        <!-- Lier les pills avec les cards correspondants -->
-
-
-        <section class="container">
-            <h3>Fellows wanted dead <span>(or alive if you want to eat them later)</span></h3>
-            <nav class="w-80">
-                <ul class="nav row justify-content-center">
-                    <li class="nav-item btn btn-dark col-md-2 col-10 offset-xs-1 btn-fellow">
-                        <a class="nav-link text-white" href="#">Most wanted</a>
+    <header class="">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark ticky-top nav-main">
+            <a class="navbar-brand col-xs-4" href="#"><img src="./img/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end nav-white" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Fellows <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item btn btn-dark col-md-2 col-10 offset-xs-1 btn-fellow">
-                        <a class="nav-link text-white" href="#">Most dangerous</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">The Ring | </a>
                     </li>
-                    <li class="nav-item btn btn-dark col-md-2 col-10 offset-xs-1 btn-fellow">
-                        <a class="nav-link text-white" href="#">Already captured</a>
+                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Get my reward | </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Best hunters | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join the army | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
                     </li>
                 </ul>
-            </nav>
-            <div class="row mw-75">
+            </div>
+        </nav>
 
-                <div class=" card col-md-4 col-10 offset-1 offset-md-0" style="width: 18rem;">
-                    <div class="wanted-container">
-                        <h3>Gandalf</h3>
-                        <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top mw-75" alt="Gandalf">
-                        <div class="banner">
-                            <p>reward <span class="reward">1000</span> golden coins</p>
+        <!-- Caroussel -->
+        <div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators d-none">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active align-items-center">
+                        <img src="./img/rd_dark_vador.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block align-self-center">
+                            <h2>Sauron is a very goo bro,</h2>
+                            <p>please help him to find his ring !</p>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <p class="card-text">Quick description...</p>
-                    </div>
-                </div>
-                <div class=" card col-md-4 col-10 offset-1 offset-md-0" style="width: 18rem;">
-                    <div class="wanted-container">
-                        <h3>Gandalf</h3>
-                        <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top mw-75" alt="Gandalf">
-                        <div class="banner">
-                            <p>reward <span class="reward">1000</span> golden coins</p>
+                    <div class="carousel-item">
+                        <img src="./img/header2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block align-self-center">
+                            <h2>Help our master !</h2>
+                            <p>Epics rewards and lot of food to get...</p>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <p class="card-text">Quick description...</p>
-                    </div>
-                </div>
-                <div class="card col-md-4 col-10 offset-1 offset-md-0" style="width: 18rem;">
-                    <div class="wanted-container">
-                        <h3>Gandalf</h3>
-                        <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top mw-75" alt="Gandalf">
-                        <div class="banner">
-                            <p>reward <span class="reward">1000</span> golden coins</p>
+                    <div class="carousel-item">
+                        <img src="img/header3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block align-self-center">
+                            <h2>Bagarre !</h2>
+                            <p>Lot. Of. Fighting. and pretty epic too !</p>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <p class="card-text">Quick description...</p>
-                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-        </section>
+        </div>
+    </header>
 
-        <hr>
+    <!-- main container-->
+    <div class="main-container">
 
-        <section class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <h3>I have captured one of them, how to get my reward ?</h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat,
-                        leo congue malesuada
-                        tincidunt, quam quam pharetra odio, ac pellentesque enim lacus quis lacus. In eget augue
-                        varius,
-                        dapibus quam in, ultrices ex. Vivamus purus dolor, finibus vitae rutrum et, consectetur vel
-                        sem.
-                        Quisque tempus erat sed ipsum ultrices, a feugiat enim hendrerit. Proin nec commodo sem.
-                        Vestibulum
-                        accumsan imperdiet maximus. Aliquam auctor tortor a dui egestas cursus. Aliquam erat volutpat.
-                        Morbi sit amet sodales diam. Aliquam maximus odio ut libero scelerisque, id convallis nulla
-                        sodales. </p>
-                    <a href="#" class="btn btn-dark offset-md-6 offset-4">Contact us</a>
+        <!-- Fellows -->
+        <section class="fellows-container">
+            <div class="container">
+                <div class="row">
+                    <h3 class="col-md12 col-12"><span class="glyph">ij</span> Fellows wanted dead <span class="lower">(or
+                            alive if you want to eat
+                            them later) </span><span class="glyph">ij</span></h3>
                 </div>
-                <div class="col-md-2 d-none d-sm-block align-self-center ">
-                    <img src="https://via.placeholder.com/140" alt="...">
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="container">
-            <div class="row">
-                <h3>Best hunters</h3>
-            </div>
-            <div class="row justify-content-between">
-                <div class="media col-md-4 offset-md-1">
-                    <img src="https://via.placeholder.com/70" class="mr-3" alt="...">
-                    <div class="media-body">
-                        <h5 class="mt-0">ElvesKiller22</h5>
-                        <p>2 captures - <a href="#">Profile</a>
-                    </div>
-                </div>
-                <div class="media col-md-4">
-                    <img src="https://via.placeholder.com/70" class="mr-3" alt="...">
-                    <div class="media-body">
-                        <h5 class="mt-0">Goblin45</h5>
-                        <p>2 captures - <a href="#">Profile</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="container">
-            <h3>About the ring</h3>
-            <div class="card">
-                <div class="card-header">
-                    <h4>Ring capabilities</h4>
-                </div>
-                <div class="card-body">
-                    <p>What can our master Sauron do with the ring ?</p>
-                    <table class="table text-center table-bordered">
-                        <thead>
-                            <tr>
-                                <th class="col-6" scope="col">Feature </th>
-                                <th class="col-6" scope="col">Description</th>
-                            </tr>
-                        </thead>
-                        <tbody class="border border-light">
-                            <tr>
-                                <td>Main</td>
-                                <td>One ring to rules them all</td>
-                            </tr>
-                            <tr>
-                                <td>Invisibility</td>
-                                <td>You can't see me</td>
-                            </tr>
-                            <tr>
-                                <td>Power</td>
-                                <td>Destroy the world</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <h4>Ring capabilities</h4>
-                </div>
-                <div class="card-body">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-7">
-                                <p><span>My preciooooooussssss ! Hrk Hrk, we want our preeciooooouuusssss !</span></p>
-                                <p>Gollum</p>
-                            </div>
-                            <div class="col-md-2 offset-5 offset-md-0">
-                                <img src="https://via.placeholder.com/110" class="rounded-circle" alt="...">
+                <nav class="nav justify-content-center fellows-nav">
+                    <ul class="nav ">
+                        <li class="nav-item btn-fellow">
+                            <a class="nav-link " href="#"><span class="glyph">b</span> Most wanted <span class="glyph">b</span></a>
+                        </li>
+                        <li class="nav-item btn-fellow">
+                            <a class="nav-link active" href="#"><span class="glyph">b</span> Most dangerous <span class="glyph">b</span></a>
+                        </li>
+                        <li class="nav-item  btn-fellow">
+                            <a class="nav-link " href="#"><span class="glyph">b</span> Already captured <span class="glyph">b</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="wanted-container alive">
+                            <h3>Gandalf</h3>
+                            <img src="./img/rd_gandalf.png" class="card-img-top" alt="Gandalf">
+                            <div class="banner">
+                                <p>reward <br /><span class="reward">1000</span> golden coins</p>
                             </div>
                         </div>
+                        <div class="card-body">
+                            <p class="card-text">a vert dangerous wizard Balrog killer...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="wanted-container alive">
+                            <h3>Aragorn</h3>
+                            <img src="./img/aragorn.png" class="card-img-top" alt="Gandalf">
+                            <div class="banner">
+                                <p>reward <br /><span class="reward">800</span> golden coins</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">sauron's finger says him his sword is dangerous...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="wanted-container">
+                            <h3 class="dead-text">Gimly</h3>
+                            <img src="./img/gimli.png" class="card-img-top" alt="Gandalf">
+                            <div class="banner dead">
+                                <p><span class="reward">dead</span></p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">a dwarf with a beard and an axe...</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </section>
 
         <hr>
 
-        <section class="container">
-            <div class="row">
-                <div class="col-md-2 d-none d-sm-block align-self-center">
-                    <img src="https://via.placeholder.com/140" alt="...">
+        <!-- reward -->
+        <section class="reward-container">
+            <div class="div container">
+                <div class="row">
+                    <h3><span class="glyph">ij</span> I have captured one of them, how to get my reward ? <span class="glyph">ij</span></h3>
                 </div>
-                <div class="col-md-10 col-sm-12">
-                    <h3>Join Mordor Army, we need you !</h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat,
-                        leo congue malesuada
-                        tincidunt, quam quam pharetra odio, ac pellentesque enim lacus quis lacus. In eget augue
-                        varius,
-                        dapibus quam in, ultrices ex. Vivamus purus dolor, finibus vitae rutrum et, consectetur vel
-                        sem.
-                        Quisque tempus erat sed ipsum ultrices, a feugiat enim hendrerit. Proin nec commodo sem.
-                        Vestibulum
-                        accumsan imperdiet maximus. Aliquam auctor tortor a dui egestas cursus. Aliquam erat volutpat.
-                        Morbi sit amet sodales diam. Aliquam maximus odio ut libero scelerisque, id convallis nulla
-                        sodales. </p>
-                    <a href="#" class="btn btn-dark offset-md-4">More info on SauronRulesThemAll.com</a>
-                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                            placerat,
+                            leo congue malesuada
+                            tincidunt, quam quam pharetra odio, ac pellentesque enim lacus quis lacus. In eget augue
+                            varius,
+                            dapibus quam in, ultrices ex. Vivamus purus dolor, finibus vitae rutrum et, consectetur vel
+                            sem.
+                        </p>
+                    </div>
 
+                    <div class="col-md-1 d-none d-md-block">
+                        <img src="./img/coin_sauron.png" alt="..." class="rounded-circle">
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <a href="#" class="btn btn-white">Contact us</a>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+        <!-- Best hunters -->
+        <section class="best-container">
+
+            <div class="container">
+                <div class="row">
+                    <h3><span class="glyph">ij</span> Best hunters<span class="glyph"> ij</span></h3>
+                </div>
+                <div class="row justify-content-around pb-5">
+                    <div class="media col-md-6 col-12">
+                        <img src="./img/hunter1.png" class="mr-3" alt="...">
+                        <div class="media-body">
+                            <h5 class="mt-1">ElvesKiller22</h5>
+                            <p>2 captures - <a href="#">Profile</a></p>
+
+                        </div>
+                    </div>
+                    <div class="media col-md-6 col-12">
+                        <img src="./img/hunter2.png" class="mr-3" alt="...">
+                        <div class="media-body">
+                            <h5 class="mt-1">Goblin45</h5>
+                            <p>2 captures - <a href="#">Profile</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <hr>
 
-        <section>
-            <h3>Contact us</h3>
-            <form class="col-md-8 container">
-                <div class="form-group">
-                    <input type="email" placeholder="@" class="form-control">
-                </div>
-                <div class="form-group ">
-                    <input type="text" placeholder="home" class="form-control">
-                </div>
-                <div class="form-group ">
-                    <select class="form-control" name="reasons" id="reasons">
-                        <option value="seen" selected>I have seen one of them</option>
-                        <option value="captured">I have captured one of them</option>
-                        <option value="join">I want to join your army</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control">Your message</textarea>
-                </div>
-                <input type="submit" class="btn btn-dark form-control" value="Talk to Sauron">
+        <!-- About -->
+        <section class="about-container py-4 ">
+            <div class="container">
 
-            </form>
+                <div class="row">
+                    <h3><span class="glyph">ij</span> About the ring <span class="glyph">ij</span></h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card my-4 pb-1">
+                            <div class="card-header">
+                                <h4>Ring capabilities</h4>
+                            </div>
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead class="border-bottom border-dark">
+                                        <tr class="">
+                                            <th class="" scope="col">Feature </th>
+                                            <th class="" scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="">
+                                        <tr class="">
+                                            <td>Main</td>
+                                            <td>One ring to rules them all</td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>Invisibility</td>
+                                            <td>You can't see me</td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>Power</td>
+                                            <td>Destroy the world</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card my-4 pb-1">
+                            <div class="card-header">
+                                <h4>Ring capabilities</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-7">
+                                        <p><span>My preciooooooussssss ! Hrk Hrk, we want our preeciooooouuusssss !</span></p>
+                                        <p>Gollum</p>
+                                    </div>
+                                    <div class="col-md-2 offset-1 offset-md-0">
+                                        <img src="./img/gollum.png" class="rounded-circle" alt="...">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            <div class="row">
+        <hr>
 
-                <div class="col-6 col-md">
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">About us</a></li>
-                        <li><a class="text-muted" href="#">Fellows</a></li>
-                        <li><a class="text-muted" href="#">Join our army</a></li>
+        <!-- Army -->
+        <section class="army-container">
+            <div class="container">
+                <h3><span class="glyph">ij</span> Join Mordor Army, we need you ! <span class="glyph">ij</span></h3>
+                <div class="row mb-5">
+
+                    <div class="col-md-8 col-sm-12">
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                            placerat,
+                            leo congue malesuada
+                            tincidunt, quam quam pharetra odio, ac pellentesque enim lacus quis lacus. In eget augue
+                            varius,
+                            dapibus quam in, ultrices ex. Vivamus purus dolor, finibus vitae rutrum et, consectetur vel
+                            sem.</p>
+                    </div>
+                    <div class="col-md-4 d-none d-sm-block ">
+                        <img class="mw-100" src="./img/army.png" alt="...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 d-none d-sm-block">
+                        <img class="mw-100" src="img/weneedyou-1.png" alt="...">
+                    </div>
+                    <div class="col-md-8 col-sm-12 text-center sauron-link">
+                        <p class="reward">More info on</p>
+                        <div class="row">
+                            <a href="#" class="btn btn-dark mx-auto">SauronRulesThemAll.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact -->
+        <section class="contact-container">
+            <div class="container">
+                <h3><span class="glyph">ij</span> Contact us <span class="glyph"> ij</span></h3>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <form class="col-12 container">
+                            <div class="form-group">
+                                <input type="email" placeholder="@" class="form-control">
+                            </div>
+                            <div class="form-group ">
+                                <input type="text" placeholder="home" class="form-control">
+                            </div>
+                            <div class="form-group ">
+                                <select class="form-control" name="reasons" id="reasons">
+                                    <option value="seen" selected>I have seen one of them</option>
+                                    <option value="captured">I have captured one of them</option>
+                                    <option value="join">I want to join your army</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="8">Your message</textarea>
+                            </div>
+                            <input type="submit" class="btn btn-dark form-control" value="Talk to Sauron">
+                        </form>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="./img/map.png" class="mw-100" alt="map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="px-4 pt-md-5 px-5 text-light">
+            <div class="row">
+                <div class="col-6 col-md nav">
+                    <ul class="list-unstyled text-small ">
+                        <li><a class="text-light nav-item" href="#">About us</a></li>
+                        <li><a class="text-light nav-item" href="#">Fellows</a></li>
+                        <li><a class="text-light nav-item" href="#">Join our army</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6 col-md nav">
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">FAQ</a></li>
-                        <li><a class="text-muted" href="#">Rewards</a></li>
-                        <li><a class="text-muted" href="#">COnditions</a></li>
+                        <li><a class="text-light nav-item" href="#">FAQ</a></li>
+                        <li><a class="text-light nav-item" href="#">Rewards</a></li>
+                        <li><a class="text-light nav-item" href="#">COnditions</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6 col-md nav">
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Sauron4Ever.com</a></li>
-                        <li><a class="text-muted" href="#">Follow hil also on twitter</a></li>
+                        <li><a class="text-light nav-item" href="#">Sauron4Ever.com</a></li>
+                        <li><a class="text-light nav-item" href="#">Follow hil also on twitter</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
-
     </div>
 
 

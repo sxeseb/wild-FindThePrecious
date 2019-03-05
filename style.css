@@ -1,25 +1,168 @@
-h3 {
-    margin: 20px 0;
+/* General */
+
+@font-face {
+    font-family: "Aniron";
+    src: url("./fonts/anirm___.ttf"); 
+    src: url("./fonts/anicm___.ttf")
 }
 
-.wanted {
-    padding: 25px;
+@font-face {
+    font-family: "Party";
+    src: url("./fonts/partybusiness.ttf");
+}
+
+@font-face {
+    font-family: "Glyphs";
+    src: url("./fonts/tngani.ttf");
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Party";
+    font-size: 1.6em;
+    overflow: hidden auto;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family : "Aniron";
+}
+
+h3 {
+    margin: 20px;
+    font-size: 0.9em;
+}
+
+h5 {
+    font-size: 1.5em;
+    color: #FF6600;
+    font-family: "Party";
+    font-weight: 500;
+}
+
+.glyph {
+    font-family: "Glyphs";
+    color: #FF6600;
+    font-weight: 600;
+    align-self: top;
+}
+
+.white-separator {
+    margin: auto 6px;    
+    height: 26px;
+    width: 3px;
+    background-color: #FFF;
+}
+
+.nav-main,
+.card-header,
+footer, .card {
+    background-color: #FF6600;
+}
+
+.reward-container,
+.about-container,
+.contact-container {
+    background-color: #101010;
+    color: #FFF;
+}
+
+.fellows-container,
+.best-container,
+.army-container, .about-container .card-body {
+    background-color: #F0EDE6;
+}
+
+
+section, hr, footer, header {
+    margin: 0;
+}
+
+p {
+    padding: 0 30px;
+}
+
+section {
+    padding: 40px 25px;
+    letter-spacing: 1.1px;
+}
+
+/* navbar */
+.nav-main {
+    text-transform: uppercase;
+    font-family: "Aniron";
+    font-size: 0.6em;
+    color: #fff;
+}
+
+.nav-main a {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.nav-main .active {
+    border-bottom: 4px solid #fff !important;
+}
+
+.carousel-caption h2 {
+    font-size: 2em;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+}
+/* fellows */
+.fellows-nav .glyph {
+    font-weight: 400;
+    color: #F0EDE6;
+}
+
+.fellows-nav a{
+    color: #5A5954;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.fellows-nav a:hover {
+    color: #000;
+}
+
+.fellows-nav .active {
+    color: #FF6600 !important;
+    border-bottom: solid 4px #FF6600;
+    margin-bottom: 11px;
+}
+
+.fellows-nav .active .glyph {
+    color: #FF6600;
+}
+
+
+/* */
+
+.fellows-container .card {
+    background-color: #101010;
+    padding: 5px;
+    border-radius: none;
+}
+
+.fellows-container .card-body {
+    color: #5A5954;
+    padding: 10px 2px;
+    font-size: 1.2em;
 }
 
 .wanted-container {
     position: relative;
     width: 100%;
-    max-width: 300px;
-
-    height: 345px;
-    margin: auto;
+    height: auto;
 }
 
 .wanted-container img {
-    position: absolute;
-    top: 0;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     z-index: 1;
     opacity: 0.6;
     transition: all ease-in-out .30s;
@@ -27,34 +170,51 @@ h3 {
 
 .wanted-container h3 {
     position: absolute;
+    font-family: "Party";
     margin: 0;
-    top: 51%;
-    left: 18%;
+    top: 60%;
+    left: 22%;
     color: #FFF;
     z-index: 51;
-    font-size: 54px;
     font-weight: 500;
+    font-size: 2.3em;
     transition: all ease-in-out .30s;
 }
 
 .banner {
     position: absolute;
     top: 16px;
-    left: 28px;
-    padding: 8px;
+    left: 5%;
+    padding: 0;
     background-color: #fff;
     opacity: 0.8;
-    width: 80%;
+    width: 90%;
     z-index: 1;
     text-align: center;
     border-radius: 10px;
     transition: all ease-in-out .30s;
+    box-shadow: 1px 1px 5px 5px #fff;
+}
+
+.dead {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    z-index: 51;
+}
+
+.dead-text {
+    text-decoration: line-through;
+    text-decoration-color: #FF6600;
+    font-size: 1.5em;    
 }
 
 .banner p {
     margin: auto;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .reward {
@@ -69,17 +229,11 @@ h3 {
 .wanted-container:hover h3 {
     font-size: 30px;
     top: 85%;
-    left: 32%;
-}
-
-.carousel-item,
-.carousel-control-prev,
-.carousel-control-next {
-    height: 50vh;
+    left: 38%;
 }
 
 .carousel-caption {
-    bottom: 40%;
+    bottom: 35%;
 }
 
 .btn-fellow {
@@ -87,6 +241,54 @@ h3 {
     margin-bottom: 5px;
 }
 
-span {
-    font-size:
+.lower {
+    font-size: 0.7em;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #FF6600;
+    border-radius: 0;
+    font-size: 1.5em;
+}
+
+/* hunters */
+
+.best-container img {
+    width: 139px;
+    height: 131px;    
+}
+
+.best-container {
+    padding: 0;
+}
+
+/* About */
+
+.about-container .card-body {
+    color: #000;
+}
+
+.about-container {
+    padding: 0;
+    margin: 0;
+}
+
+tbody {
+    color: #5A5954;
+}
+
+td {
+    padding-left : 30px !important;
+}
+
+/* */
+.sauron-link {
+    font-size: 1.5em;
+}
+
+.sauron-link a {
+    font-size: 2rem;
+    max-width: 80%;
+    margin: auto;
 }
