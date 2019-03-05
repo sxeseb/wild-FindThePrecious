@@ -49,9 +49,7 @@ h5 {
 }
 
 .white-separator {
-    margin: auto 6px;
-
-    
+    margin: auto 6px;    
     height: 26px;
     width: 3px;
     background-color: #FFF;
@@ -264,8 +262,9 @@ section {
     color: #000;
 }
 
-table {
-    font-size: 1.2em;
+.about-container {
+    padding: 0;
+    margin: 0;
 }
 
 tbody {
@@ -274,4 +273,15 @@ tbody {
 
 td {
     padding-left : 30px !important;
+}
+
+/* */
+.sauron-link {
+    font-size: 1.5em;
+}
+
+.sauron-link a {
+    font-size: 2rem;
+    max-width: 80%;
+    margin: auto;
 }
