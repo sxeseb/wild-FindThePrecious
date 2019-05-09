@@ -1,0 +1,25 @@
+@mixin ring($size, $color) {
+    width : $size;
+    height : $size;
+    vertical-align: middle;
+    background-color: transparent;
+    border : $size/18 solid $color;
+    border-radius : 50%;
+    box-shadow: $size/18  $size/18 $size/20 darken($color, 15%) inset, $size/18 $size/18 $size/20 darken($color, 15%);
+  }
+  
+  .titleRing {
+    @include ring(60px, orange);
+  }
+  
+  .theOne {
+    @include ring(200px, yellow);
+  }
+  
+  @for $i from 1 through 6 {
+      
+      .blackRing#{$i} {
+          @include ring( (60px * $i) / 3 , #343434);
+      }
+  }
+  
