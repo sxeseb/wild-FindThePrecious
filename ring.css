@@ -1,0 +1,79 @@
+.titleRing {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 3.3333333333px solid orange;
+  border-radius: 50%;
+  box-shadow: 3.3333333333px 3.3333333333px 3px #b37400 inset, 3.3333333333px 3.3333333333px 3px #b37400;
+}
+
+.theOne {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 11.1111111111px solid yellow;
+  border-radius: 50%;
+  box-shadow: 11.1111111111px 11.1111111111px 10px #b3b300 inset, 11.1111111111px 11.1111111111px 10px #b3b300;
+}
+
+.blackRing1 {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1.1111111111px solid #343434;
+  border-radius: 50%;
+  box-shadow: 1.1111111111px 1.1111111111px 1px #0e0e0e inset, 1.1111111111px 1.1111111111px 1px #0e0e0e;
+}
+
+.blackRing2 {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 2.2222222222px solid #343434;
+  border-radius: 50%;
+  box-shadow: 2.2222222222px 2.2222222222px 2px #0e0e0e inset, 2.2222222222px 2.2222222222px 2px #0e0e0e;
+}
+
+.blackRing3 {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 3.3333333333px solid #343434;
+  border-radius: 50%;
+  box-shadow: 3.3333333333px 3.3333333333px 3px #0e0e0e inset, 3.3333333333px 3.3333333333px 3px #0e0e0e;
+}
+
+.blackRing4 {
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 4.4444444444px solid #343434;
+  border-radius: 50%;
+  box-shadow: 4.4444444444px 4.4444444444px 4px #0e0e0e inset, 4.4444444444px 4.4444444444px 4px #0e0e0e;
+}
+
+.blackRing5 {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 5.5555555556px solid #343434;
+  border-radius: 50%;
+  box-shadow: 5.5555555556px 5.5555555556px 5px #0e0e0e inset, 5.5555555556px 5.5555555556px 5px #0e0e0e;
+}
+
+.blackRing6 {
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 6.6666666667px solid #343434;
+  border-radius: 50%;
+  box-shadow: 6.6666666667px 6.6666666667px 6px #0e0e0e inset, 6.6666666667px 6.6666666667px 6px #0e0e0e;
+}
